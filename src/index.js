@@ -25,7 +25,7 @@ function Square(props) {
             cols=[];
             for(let j =0; j<3; j++){
                 cols.push(this.renderSquare(num));
-                nums++;
+                num++;
             }
             rows.push(<div key={i} className="board-row">{cols}</div>)
         }
